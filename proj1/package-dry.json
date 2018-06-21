@@ -1,0 +1,20 @@
+{
+  "name": "proj1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.6"
+  },
+  "devDependencies": {},
+  "description": "",
+  "dry": {
+    "extends": [
+      "file://../proj2/package-dry.json",
+      "file://../proj3/package-dry.json"
+    ],
+    "dependencies": {
+    }
+  }
+}
